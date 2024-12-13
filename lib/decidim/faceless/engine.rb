@@ -11,6 +11,7 @@ module Decidim
       config.to_prepare do
         Decidim::UserPresenter.prepend(Decidim::Faceless::UserPresenterOverride)
         Decidim::ProfileSidebarCell.prepend(Decidim::Faceless::ProfileSidebarCellOverride)
+        Decidim::ProfileCell.prepend(Decidim::Faceless::ProfileCellOverride)
       end
     end
   end

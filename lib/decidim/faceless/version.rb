@@ -3,7 +3,7 @@
 module Decidim
   # This holds the decidim-faceless version.
   module Faceless
-    VERSION = "0.26.0"
-    DECIDIM_VERSION = "~> 0.26"
+    VERSION = "0.28.0"
+    DECIDIM_VERSION = "~> 0.28"
   end
 end
